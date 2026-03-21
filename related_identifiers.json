@@ -1,0 +1,30 @@
+{
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/juanmoisesd/research-hub",
+      "relation": "isDocumentedBy",
+      "scheme": "url",
+      "resource_type": "dataset"
+    },
+    {
+      "identifier": "https://orcid.org/0000-0002-8401-8018",
+      "relation": "isCreatedBy",
+      "scheme": "url",
+      "resource_type": "person"
+    },
+    {
+      "identifier": "https://juanmoisesd.github.io/research-hub/",
+      "relation": "isDescribedBy",
+      "scheme": "url",
+      "resource_type": "webpage"
+    },
+    {
+      "identifier": "https://github.com/juanmoisesd",
+      "relation": "isPartOf",
+      "scheme": "url",
+      "resource_type": "collection"
+    }
+  ],
+  "author": "Juan Moisés de la Serna Tuya",
+  "dataset": "Central hub: Open datasets, dashboards and research by Juan Moisés de la Serna Tuya (UNIR). 92+ DOIs across Harvard Dataverse, Zenodo, Mendeley, Figshare."
+}
