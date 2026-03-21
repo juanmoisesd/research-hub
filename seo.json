@@ -1,0 +1,19 @@
+{
+  "title": "Central hub: Open datasets, dashboards and research by Juan Moisés de la Serna Tuya (UNIR). 92+ DOIs across Harvard Dataverse, Zenodo, Mendeley, Figshare.",
+  "description": "Central hub: Open datasets, dashboards and research by Juan Moisés de la Serna Tuya (UNIR). 92+ DOIs across Harvard Dataverse, Zenodo, Mendeley, Figshare.",
+  "keywords": "open-data, dataset, research",
+  "author": "Juan Moisés de la Serna Tuya",
+  "orcid": "https://orcid.org/0000-0002-8401-8018",
+  "canonical": "https://juanmoisesd.github.io/research-hub/",
+  "og:title": "Central hub: Open datasets, dashboards and research by Juan Moisés de la Serna Tuya (UNIR). 92+ DOIs across Harvard Dataverse, Zenodo, Mendeley, Figshare.",
+  "og:description": "Central hub: Open datasets, dashboards and research by Juan Moisés de la Serna Tuya (UNIR). 92+ DOIs across Harvard Dataverse, Zenodo, Mendeley, Figshare.",
+  "og:url": "https://juanmoisesd.github.io/research-hub/",
+  "og:type": "dataset",
+  "twitter:card": "summary",
+  "twitter:title": "Central hub: Open datasets, dashboards and research by Juan Moisés de la Serna Tuya (UNIR). 92+ DOIs across Harvard Dataverse, Zenodo, Mendeley, Figshare.",
+  "twitter:description": "Central hub: Open datasets, dashboards and research by Juan Moisés de la Serna Tuya (UNIR). 92+ DOIs across Harvard Dataverse, Zenodo, Mendeley, Figshare.",
+  "schema_type": "Dataset",
+  "license": "CC0-1.0",
+  "datePublished": "2026-03-20",
+  "language": "es, en"
+}
