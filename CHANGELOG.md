@@ -1,20 +1,24 @@
 # Changelog
 
-All notable changes to this project will be documented in this file.
+All notable changes to the Open Research Hub are documented here.
+Format: [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
-The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
+## [Unreleased]
 
-## [1.0.0] - 2026-03-20
+## [1.0.0] - 2025-01-01
 
 ### Added
-- Initial release
-- Core dataset and documentation
-- README.md with full academic and divulgative description
-- CITATION.cff for automatic citation
-- codemeta.json for scientific metadata
-- LICENSE (CC0 1.0)
-- AUTHORS.md and CONTRIBUTORS.md
-- ACKNOWLEDGMENTS.md
-- Scientific documentation (methodology, validation, limitations)
-- FAIR metadata files (ro-crate-metadata.json, PROV.json)
-- Ethics and data management documentation
+- Initial launch of the Open Research Hub portal
+- 92+ datasets indexed across Harvard Dataverse, Zenodo, Mendeley, Figshare
+- GitHub Pages site with search and filtering
+- CITATION.cff for standardized citation
+- Community health files (CONTRIBUTING, CODE_OF_CONDUCT, SECURITY)
+- OpenAIRE-compliant .zenodo.json metadata
+- GitHub Discussions enabled for community Q&A
+- PWA manifest for mobile support
+- Hreflang tags for EN/ES/PT multilingual SEO
+- Weekly stats GitHub Action (update-stats.yml)
+- _includes/head-custom.html with Open Graph and citation meta
+
+[Unreleased]: https://github.com/juanmoisesd/research-hub/compare/v1.0.0...HEAD
+[1.0.0]: https://github.com/juanmoisesd/research-hub/releases/tag/v1.0.0
