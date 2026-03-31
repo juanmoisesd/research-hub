@@ -1,0 +1,76 @@
+name: Update Profile Stats
+
+on:
+  schedule:
+    - cron: '0 6 * * 1'  # Every Monday at 06:00 UTC
+  workflow_dispatch:       # Manual trigger
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/update-stats.yml'
+
+jobs:
+  update-stats:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install requests PyYAML
+
+      - name: Fetch GitHub stats
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_USER: juanmoisesd
+        run: |
+          python - <<'PYEOF'
+          import requests, json, os, re
+          from datetime import datetime
+
+          token = os.environ['GITHUB_TOKEN']
+          user = os.environ['GH_USER']
+          headers = {'Authorization': f'token {token}', 'Accept': 'application/vnd.github.v3+json'}
+
+          # Fetch all repos
+          repos = []
+          page = 1
+          while True:
+              r = requests.get(f'https://api.github.com/users/{user}/repos?per_page=100&page={page}', headers=headers)
+              data = r.json()
+              if not data: break
+              repos.extend(data)
+              page += 1
+
+          total_stars = sum(r.get('stargazers_count', 0) for r in repos)
+          total_forks = sum(r.get('forks_count', 0) for r in repos)
+          total_repos = len(repos)
+
+          stats = {
+              'updated': datetime.utcnow().strftime('%Y-%m-%d'),
+              'repos': total_repos,
+              'stars': total_stars,
+              'forks': total_forks
+          }
+          with open('stats.json', 'w') as f:
+              json.dump(stats, f, indent=2)
+          print(f"Stats: {stats}")
+          PYEOF
+
+      - name: Commit stats if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add stats.json
+          git diff --staged --quiet || git commit -m "chore: update stats.json [skip ci]"
+          git push
