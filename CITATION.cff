@@ -1,32 +1,27 @@
 cff-version: 1.2.0
-message: "If you use this dataset, please cite it as below."
-type: dataset
-title: "Central hub: Open datasets, dashboards and research by Juan Moisés de la Serna Tuya (UNIR). 92+ DOIs across Harvard Dataverse, Zenodo, Mendeley, Figshare."
-abstract: "Central hub: Open datasets, dashboards and research by Juan Moisés de la Serna Tuya (UNIR). 92+ DOIs across Harvard Dataverse, Zenodo, Mendeley, Figshare."
+message: "If you use this research collection, please cite it as below."
+type: software
 authors:
-  - family-names: "de la Serna Tuya"
+  - family-names: "Serna Tuya"
     given-names: "Juan Moisés"
-    orcid: "https://orcid.org/0000-0002-8401-8018"
-    affiliation: "Universidad Internacional de La Rioja (UNIR)"
-    email: "juanmoises.delaserna@unir.net"
-repository-code: "https://github.com/juanmoisesd/research-hub"
-url: "https://juanmoisesd.github.io/research-hub/"
-keywords:
-  - open-data
-  - dataset
-  - research
-  - science
-license: CC0-1.0
+    email: "jmsernatuya@gmail.com"
+    affiliation: "Independent Researcher"
+title: "Open Research Hub: Latin America Health & Neuroscience Datasets"
 version: "1.0.0"
-date-released: "2026-03-20"
-doi: "10.5281/zenodo.19145316"
-references:
-  - type: dataset
-    title: "Open Research Collection — Juan Moisés de la Serna Tuya"
-    doi: "10.5281/zenodo.19145316"
-    url: "https://doi.org/10.5281/zenodo.19145316"
-    authors:
-      - family-names: "De la Serna Tuya"
-        given-names: "Juan Moisés"
-        orcid: "https://orcid.org/0000-0002-8401-8018"
-    notes: "Master collection of 1273+ open research datasets"
+doi: 10.5281/zenodo.19145316
+date-released: "2025-01-01"
+url: "https://juanmoisesd.github.io/research-hub/"
+repository-code: "https://github.com/juanmoisesd/research-hub"
+license: CC-BY-4.0
+keywords:
+  - open-research
+  - latin-america
+  - neuroscience
+  - public-health
+  - datasets
+  - open-data
+  - data-portal
+abstract: >
+  Central portal for all open research datasets by Juan Moisés Serna Tuya.
+  Covers neuroscience, mental health, Alzheimer's, generative AI in academia,
+  and socioeconomic indicators for Latin America and Ibero-America.
