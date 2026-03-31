@@ -1,42 +1,37 @@
 {
   "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
   "@type": "SoftwareSourceCode",
-  "name": "Central hub: Open datasets, dashboards and research by Juan Moisés de la Serna Tuya (UNIR). 92+ DOIs across Harvard Dataverse, Zenodo, Mendeley, Figshare.",
-  "description": "Central hub: Open datasets, dashboards and research by Juan Moisés de la Serna Tuya (UNIR). 92+ DOIs across Harvard Dataverse, Zenodo, Mendeley, Figshare.",
-  "url": "https://github.com/juanmoisesd/research-hub",
-  "codeRepository": "https://github.com/juanmoisesd/research-hub",
-  "dateCreated": "2026-03-20",
-  "dateModified": "2026-03-20",
-  "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "name": "Open Research Hub: Latin America Health & Neuroscience Datasets",
+  "description": "Central portal for all open research datasets by Juan Moisés Serna Tuya. Covers neuroscience, mental health, Alzheimer's, generative AI in academia, and socioeconomic indicators for Latin America. 92+ DOIs.",
+  "identifier": "https://doi.org/10.5281/zenodo.19145316",
+  "datePublished": "2025-01-01",
   "version": "1.0.0",
+  "license": "https://spdx.org/licenses/CC-BY-4.0",
+  "url": "https://juanmoisesd.github.io/research-hub/",
+  "codeRepository": "https://github.com/juanmoisesd/research-hub",
+  "issueTracker": "https://github.com/juanmoisesd/research-hub/issues",
   "author": [
     {
       "@type": "Person",
       "givenName": "Juan Moisés",
-      "familyName": "de la Serna Tuya",
-      "@id": "https://orcid.org/0000-0002-8401-8018",
+      "familyName": "Serna Tuya",
+      "email": "jmsernatuya@gmail.com",
       "affiliation": {
         "@type": "Organization",
-        "name": "Universidad Internacional de La Rioja (UNIR)"
-      },
-      "email": "juanmoises.delaserna@unir.net"
+        "name": "Independent Researcher"
+      }
     }
   ],
   "keywords": [
+    "open-research",
+    "latin-america",
+    "neuroscience",
+    "public-health",
+    "datasets",
     "open-data",
-    "dataset",
-    "research"
+    "data-portal",
+    "Harvard Dataverse",
+    "Zenodo"
   ],
-  "programmingLanguage": "HTML",
-  "maintainer": [
-    {
-      "@type": "Person",
-      "givenName": "Juan Moisés",
-      "familyName": "de la Serna Tuya"
-    }
-  ],
-  "funder": {
-    "@type": "Organization",
-    "name": "Universidad Internacional de La Rioja (UNIR)"
-  }
+  "citation": "https://github.com/juanmoisesd/research-hub/blob/main/CITATION.cff"
 }
