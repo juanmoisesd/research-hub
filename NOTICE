@@ -1,0 +1,43 @@
+NOTICE — Data Source Attribution
+=================================
+
+Project: Research Hub — Open Datasets, Dashboards and Research
+Author:  Juan Moisés de la Serna Tuya (UNIR)
+ORCID:   https://orcid.org/0000-0002-8401-8018
+DOI:     https://doi.org/10.5281/zenodo.19145316
+License: Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+About This Collection
+---------------------
+This hub aggregates 92+ open research datasets and dashboards across
+multiple repositories and platforms. Each individual dataset maintains
+its own NOTICE and citation requirements.
+
+External Repositories Referenced
+---------------------------------
+1. Harvard Dataverse — https://dataverse.harvard.edu/
+   License: Subject to individual dataset terms (typically CC BY 4.0)
+
+2. Zenodo (CERN) — https://zenodo.org/
+   License: Subject to individual dataset terms
+
+3. Mendeley Data — https://data.mendeley.com/
+   License: Subject to individual dataset terms (typically CC BY 4.0)
+
+4. Figshare — https://figshare.com/
+   License: Subject to individual dataset terms
+
+Attribution Requirement
+-----------------------
+If you use any dataset from this collection, please cite the specific
+dataset using its individual DOI. For the collection as a whole:
+
+  Serna Tuya, J. M. (2025). Open Research Collection: Datasets,
+  dashboards and research by Juan Moisés de la Serna Tuya. Zenodo.
+  https://doi.org/10.5281/zenodo.19145316
+
+Third-Party Rights
+------------------
+Individual datasets in this collection may be subject to their own
+license terms. Users are responsible for complying with all applicable
+licenses when accessing or using specific datasets.
