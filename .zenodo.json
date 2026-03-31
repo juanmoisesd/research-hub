@@ -3,7 +3,7 @@
   "description": "Central hub: Open datasets, dashboards and research by Juan Moisés de la Serna Tuya (UNIR). 92+ DOIs across Harvard Dataverse, Zenodo, Mendeley, Figshare.",
   "upload_type": "dataset",
   "access_right": "open",
-  "license": "cc-zero",
+  "license": "cc-by-4.0",
   "creators": [
     {
       "name": "de la Serna Tuya, Juan Moisés",
@@ -12,25 +12,42 @@
     }
   ],
   "keywords": [
-    "open-data",
-    "dataset",
-    "research",
-    "open-data",
-    "dataset",
-    "research"
+    "open data",
+    "research hub",
+    "Latin America",
+    "neuroscience",
+    "mental health",
+    "dashboards",
+    "datasets",
+    "open science",
+    "FAIR data"
   ],
-  "language": "eng",
   "communities": [
     {
       "identifier": "zenodo"
+    },
+    {
+      "identifier": "openaire"
+    },
+    {
+      "identifier": "eoscfuture"
+    },
+    {
+      "identifier": "health-open-research"
     }
   ],
-  "grants": [],
+  "notes": "OpenAIRE compliant. Submitted to EOSC Future. This is the central collection hub by Juan Moisés Serna Tuya (DOI: 10.5281/zenodo.19145316).",
   "related_identifiers": [
     {
-      "identifier": "https://github.com/juanmoisesd/research-hub",
+      "identifier": "https://juanmoisesd.github.io/research-hub/",
       "relation": "isSupplementTo",
       "scheme": "url"
+    },
+    {
+      "identifier": "10.5281/zenodo.19145316",
+      "relation": "isIdenticalTo",
+      "scheme": "doi",
+      "resource_type": "collection"
     }
   ]
 }
