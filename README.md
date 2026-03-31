@@ -19,3 +19,26 @@
 | [human-brain-connectomics](https://github.com/juanmoisesd/human-brain-connectomics-structural-and-functional-connectivity-database) | Neuroscience | GitHub | [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/juanmoisesd/human-brain-connectomics-structural-and-functional-connectivity-database/main?labpath=notebooks%2Fexploratory_analysis.ipynb) |
 | [generative-ai-academic-research](https://github.com/juanmoisesd/generative-ai-in-academic-research-database-on-usage-perception-and-productivity) | AI/Education | GitHub | [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/juanmoisesd/generative-ai-in-academic-research-database-on-usage-perception-and-productivity/main?labpath=notebooks%2Fexploratory_analysis.ipynb) |
 | [latamdata-py](https://github.com/juanmoisesd/latamdata-py) | Data Science | [![PyPI](https://img.shields.io/pypi/v/latamdata-py)](https://pypi.org/project/latamdata-py/) | — |
+
+
+## 📖 Citation
+
+If you use this collection in your research, please cite:
+
+**APA:**
+Serna Tuya, J. M. (2025). *Open Research Collection: Datasets, dashboards and research by Juan Moisés de la Serna Tuya*. Zenodo. https://doi.org/10.5281/zenodo.19145316
+
+**Chicago:**
+Serna Tuya, Juan Moisés. "Open Research Collection: Datasets, Dashboards and Research by Juan Moisés de la Serna Tuya." Zenodo, 2025. https://doi.org/10.5281/zenodo.19145316.
+
+**BibTeX:**
+```bibtex
+@misc{sernatuya_2025_collection,
+  author    = {Serna Tuya, Juan Moisés},
+  title     = {Open Research Collection: Datasets, dashboards and research},
+  year      = {2025},
+  publisher = {Zenodo},
+  doi       = {10.5281/zenodo.19145316},
+  url       = {https://doi.org/10.5281/zenodo.19145316}
+}
+```
