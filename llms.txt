@@ -1,0 +1,54 @@
+# Research Hub — Juan Moisés de la Serna Tuya
+
+> Central hub for open datasets, interactive dashboards, and research outputs by Juan Moisés de la Serna Tuya (UNIR). 92+ DOIs published across Harvard Dataverse, Zenodo, Mendeley, and Figshare.
+
+## Author
+Juan Moisés de la Serna Tuya (UNIR — Universidad Internacional de La Rioja)
+ORCID: 0000-0002-8401-8018
+Email: jmsernatuya@gmail.com
+Web: https://juanmoisesdelaserna.es
+GitHub: https://github.com/juanmoisesd
+
+## About
+Independent researcher and software engineer specializing in open science, neuroscience, mental health epidemiology, and AI in education. All research outputs are published with open licenses (CC BY 4.0) and permanently archived with DOIs for maximum reusability.
+
+## Research Areas
+- Neuroscience & dementia epidemiology (Alzheimer's Disease in Latin America)
+- Mental health workforce and access to care (Ibero-America)
+- Human brain connectomics (structural DTI and functional fMRI)
+- Generative AI in academic research and higher education
+- Open data infrastructure for Latin American health research
+
+## Key Repositories
+
+### alzheimer-latinamerica-dashboard
+Interactive dashboard on Alzheimer's Disease in Latin America (2000–2050), 8 countries.
+DOI: https://doi.org/10.7910/DVN/UVHABW
+URL: https://juanmoisesd.github.io/alzheimer-latinamerica-dashboard/
+
+### mental-health-specialists-iberoamerica
+Mental health and neurology specialists per 100k inhabitants across Ibero-America (2000–2026).
+DOI: https://doi.org/10.5281/zenodo.18984813
+URL: https://juanmoisesd.github.io/mental-health-specialists-iberoamerica/
+
+### human-brain-connectomics-structural-and-functional-connectivity-database
+Database of human brain structural and functional connectivity data.
+URL: https://juanmoisesd.github.io/human-brain-connectomics-structural-and-functional-connectivity-database/
+
+### generative-ai-in-academic-research-database-on-usage-perception-and-productivity
+Database on GAI usage, perception, and productivity in Latin American academia (2022–2025).
+URL: https://juanmoisesd.github.io/generative-ai-in-academic-research-database-on-usage-perception-and-productivity/
+
+### latamdata-py
+Python package for one-line access to 38+ Latin American research datasets.
+PyPI: https://pypi.org/project/latamdata-py/
+DOI: https://doi.org/10.5281/zenodo.15105434
+
+## Hub URL
+https://juanmoisesd.github.io/research-hub/
+
+## License
+Data: CC BY 4.0 | Code: MIT
+
+## Keywords
+open science, latin america, neuroscience, alzheimer, mental health, brain connectomics, generative AI, open data, research hub, ORCID, Harvard Dataverse, Zenodo
