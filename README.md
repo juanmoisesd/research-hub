@@ -42,3 +42,37 @@ Serna Tuya, Juan Moisés. "Open Research Collection: Datasets, Dashboards and Re
   url       = {https://doi.org/10.5281/zenodo.19145316}
 }
 ```
+
+---
+
+## 🗺 Roadmap
+
+### 2025 — Completed ✅
+- [x] 92+ DOIs published across Harvard Dataverse, Zenodo, Mendeley, Figshare
+- [x] Interactive dashboards for Alzheimer (8 countries, 2000–2050)
+- [x] Mental health specialists database for 21 Ibero-American countries
+- [x] `latamdata-py` Python package with 38+ datasets (pip install)
+- [x] CITATION.cff, codemeta.json, and community health files in all repos
+- [x] GitHub Actions CI/CD pipelines (test, lint, CodeQL, stale)
+- [x] `llms.txt` in all GitHub Pages repos for AI-readability
+
+### 2025 Q3–Q4 — In Progress 🔄
+- [ ] Expand to 100+ DOIs
+- [ ] latamdata-py v1.0 stable release on PyPI
+- [ ] Add Portuguese (PT-BR) README to all repos
+- [ ] Integrate OpenAlex and Semantic Scholar metadata
+- [ ] REST API for latamdata datasets
+
+### 2026 — Planned 📋
+- [ ] Wikidata integration (researcher and dataset profiles)
+- [ ] Interactive data explorer with Streamlit or Shiny
+- [ ] Jupyter Book documentation site
+- [ ] Dataset versioning with DVC (Data Version Control)
+- [ ] Live real-time dashboards with automated data updates
+- [ ] Machine-readable metadata (schema.org, DCAT, DataCite)
+
+### Long-term Vision 🔭
+- Global collaboration network for open Latin American health data
+- Federated data repository with FAIR principles
+- Automated citation tracking across Google Scholar, Scopus, and Web of Science
+- AI-assisted data curation and quality control pipeline
