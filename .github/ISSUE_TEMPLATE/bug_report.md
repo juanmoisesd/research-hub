@@ -1,26 +1,15 @@
 ---
-name: Bug Report / Error en los datos
-about: Report incorrect data, broken links, or technical issues
+name: Bug report / Broken link
+about: Report incorrect data, broken links, or errors
 title: '[BUG] '
 labels: bug
 assignees: juanmoisesd
 ---
 
-## Describe the Bug / Describe el error
-A clear description of what the bug is.
+## Describe the issue
 
-## Expected Behavior / Comportamiento esperado
-What you expected to happen.
+## Steps to reproduce
 
-## Steps to Reproduce / Pasos para reproducir
-1. Go to '...'
-2. Click on '...'
-3. See error
+## Expected behavior
 
-## Environment / Entorno
-- Browser (if applicable):
-- Dataset version:
-- Date observed:
-
-## Additional Context / Contexto adicional
-Add any other context, screenshots, or data samples here.
+## Screenshots
