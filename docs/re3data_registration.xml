@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- re3data.org Registration Metadata for juanmoisesd Research Collection -->
+<!-- Submit this file to https://www.re3data.org/api/beta/repository -->
+<repository xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:noNamespaceSchemaLocation="http://schema.re3data.org/2-2/re3dataV2-2.xsd">
+
+  <re3data.orgIdentifier>pending</re3data.orgIdentifier>
+  <repositoryName language="eng">Juan Moisés Serna Tuya Open Research Collection</repositoryName>
+  <additionalName language="spa">Colección de Investigación Abierta — Juan Moisés Serna Tuya</additionalName>
+  <repositoryURL>https://juanmoisesd.github.io/research-hub/</repositoryURL>
+  <repositoryIdentifier>
+    <identifierType>DOI</identifierType>
+    <value>10.5281/zenodo.19145316</value>
+  </repositoryIdentifier>
+
+  <description language="eng">
+    Open research collection by Juan Moisés Serna Tuya (UNIR), comprising 1,273+ datasets across
+    neurology, mental health, neuroscience, AI/education, and data science. All datasets are
+    FAIR-compliant, multilingual (20+ languages), and published with persistent DOIs via Zenodo,
+    Harvard Dataverse, Mendeley Data, and Figshare.
+  </description>
+  <description language="spa">
+    Colección de investigación abierta de Juan Moisés Serna Tuya (UNIR), con 1,273+ datasets en
+    neurología, salud mental, neurociencia, IA/educación y ciencia de datos. Todos los datasets
+    cumplen con los principios FAIR y están disponibles en 20+ idiomas.
+  </description>
+
+  <repositoryContact>jmsernatuya@gmail.com</repositoryContact>
+  <repositoryContact>https://orcid.org/0000-0002-8401-8018</repositoryContact>
+
+  <type>disciplinary</type>
+  <size updated="2025-03-31">1273</size>
+  <startDate>2020-01-01</startDate>
+
+  <repositoryLanguage>eng</repositoryLanguage>
+  <repositoryLanguage>spa</repositoryLanguage>
+  <repositoryLanguage>por</repositoryLanguage>
+  <repositoryLanguage>fra</repositoryLanguage>
+  <repositoryLanguage>deu</repositoryLanguage>
+
+  <subject subjectScheme="DFG">205 Medicine</subject>
+  <subject subjectScheme="DFG">206 Neurosciences</subject>
+  <subject subjectScheme="DFG">111 Social Sciences</subject>
+  <subject subjectScheme="DFG">409 Computer Science</subject>
+
+  <keyword>Alzheimer disease</keyword>
+  <keyword>mental health</keyword>
+  <keyword>brain connectomics</keyword>
+  <keyword>generative AI</keyword>
+  <keyword>Latin America</keyword>
+  <keyword>Iberoamerica</keyword>
+  <keyword>open science</keyword>
+  <keyword>FAIR data</keyword>
+
+  <institution>
+    <institutionName language="eng">Universidad Internacional de La Rioja (UNIR)</institutionName>
+    <institutionCountry>ESP</institutionCountry>
+    <responsibilityType>general</responsibilityType>
+    <institutionType>non-profit</institutionType>
+    <institutionURL>https://www.unir.net</institutionURL>
+  </institution>
+
+  <policy>
+    <policyName>CC BY 4.0 — Creative Commons Attribution 4.0</policyName>
+    <policyURL>https://creativecommons.org/licenses/by/4.0/</policyURL>
+  </policy>
+
+  <databaseAccess>
+    <databaseAccessType>open</databaseAccessType>
+  </databaseAccess>
+
+  <dataAccess>
+    <dataAccessType>open</dataAccessType>
+  </dataAccess>
+
+  <dataLicense>
+    <dataLicenseName>CC BY</dataLicenseName>
+    <dataLicenseURL>https://creativecommons.org/licenses/by/4.0/</dataLicenseURL>
+  </dataLicense>
+
+  <dataUpload>
+    <dataUploadType>closed</dataUploadType>
+  </dataUpload>
+
+  <versioning>yes</versioning>
+  <pidSystem>doi</pidSystem>
+  <citationGuidelineURL>https://github.com/juanmoisesd/research-hub#citation</citationGuidelineURL>
+
+  <enhancedPublication>yes</enhancedPublication>
+  <qualityManagement>yes</qualityManagement>
+
+  <metadataStandard>
+    <metadataStandardName>Dublin Core</metadataStandardName>
+    <metadataStandardURL>http://dublincore.org/</metadataStandardURL>
+  </metadataStandard>
+  <metadataStandard>
+    <metadataStandardName>DataCite Metadata Schema</metadataStandardName>
+    <metadataStandardURL>https://schema.datacite.org/</metadataStandardURL>
+  </metadataStandard>
+  <metadataStandard>
+    <metadataStandardName>Schema.org</metadataStandardName>
+    <metadataStandardURL>https://schema.org/Dataset</metadataStandardURL>
+  </metadataStandard>
+
+  <remarks>
+    All repositories include CITATION.cff, .zenodo.json, CONTRIBUTING.md, CODE_OF_CONDUCT.md,
+    SECURITY.md, and datapackage.json for full FAIR compliance. Exploratory Jupyter notebooks
+    are available for each dataset, launchable via Binder and Google Colab.
+  </remarks>
+
+</repository>
